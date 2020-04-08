@@ -6,3 +6,4 @@ SELECT DISTINCT year from population_years;
 
 SELECT country,population FROM population_years
 WHERE country = 'Gabon' ORDER BY population DESC;
+
