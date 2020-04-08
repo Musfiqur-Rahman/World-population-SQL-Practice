@@ -13,3 +13,7 @@ WHERE year = 2005  ORDER BY population ASC LIMIT 10;
 SELECT  DISTINCT country, population FROM population_years
 WHERE year = 2010 AND population > 100;
 
+
+SELECT country FROM population_years WHERE country LIKE '%Islands%';
+
+
