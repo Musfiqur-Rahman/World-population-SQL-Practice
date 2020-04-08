@@ -17,3 +17,5 @@ WHERE year = 2010 AND population > 100;
 SELECT country FROM population_years WHERE country LIKE '%Islands%';
 
 
+SELECT country, population, year FROM population_years
+WHERE country = 'Indonesia' AND  year BETWEEN 2000 AND 2010;
